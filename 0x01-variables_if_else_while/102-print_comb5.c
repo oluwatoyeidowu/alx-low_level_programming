@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
 *assign a random number to the variable n each time it is executed
 *print the last digit of the number stored in the variable n
@@ -14,7 +15,7 @@ int main(void)
 		{
 			putchar(ch);
 			putchar(n);
-			if (ch != 57 || n!= 57)
+			if (ch != 57 || n != 57)
 			{
 				putchar(44);
 				putchar(32);

@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
 *assign a random number to the variable n each time it is executed
 *print the last digit of the number stored in the variable n
@@ -13,7 +14,7 @@ int main(void)
 	{
 		for (n = 49; n <= 57; n++)
 		{
-			for(n =50; n<= 57; n++)
+			for(m =50; m <= 57; m++)
 			{
 				if (n > ch && m > n)
 				{
