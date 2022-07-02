@@ -7,12 +7,25 @@
 */
 int main(void)
 {
-	int ch;
-	for (ch = 97; ch <= 122; ch++)
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	printf("Last digit of %d is ",n);
+	if (n > 5)
 	{
-		putchar(ch);
+		printf("greater than 5");
 	}
-	putchar(10); /* this is an ASCII code for a new: line */
+	if ( n == 0 )
+	{
+		printf("0");
+	}
+	if ( n < 6 && n !=0 )
+	{
+		printf("less than 6 not 0");
+	}
+
+	printf("\n");
 
 	return (0);
 }

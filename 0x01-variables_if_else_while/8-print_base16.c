@@ -7,16 +7,24 @@
 */
 int main(void)
 {
-         char ch;
-        for (ch = 'a'; ch <= 'z'; ch++)
+        /**
+	* hexadecimal
+	* 0 1 2 3 4 5 6 7 8 9 a b c d e f
+	*/
+	char ch;
+	int n;
+        for (n = 48; n <= 57; n++)
         {
-                if (ch !=q && ch != 'e')
-                {
-                putchar(ch);
-                }
+                
+                putchar(n);
+                
         }
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
+	}
 
-        putchar(10); /* this is an ASCII code for a new: line */
+        putchar(10);
 
         return (0);
 }
