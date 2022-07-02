@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (n = 49; n <= 57; n++)
 		{
-			for(m =50; m <= 57; m++)
+			for (m = 50; m <= 57; m++)
 			{
 				if (n > ch && m > n)
 				{
@@ -23,13 +23,14 @@ int main(void)
 					putchar(m);
 					if (ch != 55 || n != 56 || m != 57)
 					{
-                                		putchar(44);
-						putchar(32);
+                                	putchar(44);
+					putchar(32);
 					}
 				}
 			}
 		}
 	}
 	putchar(10); /* this is an ASCII code for a new: line */
+
 	return (0);
 }

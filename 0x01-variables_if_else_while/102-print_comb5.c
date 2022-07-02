@@ -23,5 +23,6 @@ int main(void)
 		}
 	}
 	putchar(10); /* this is an ASCII code for a new: line */
+
 	return (0);
 }
