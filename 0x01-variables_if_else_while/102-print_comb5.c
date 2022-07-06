@@ -20,12 +20,11 @@ putchar(j % 10 + 48);
 putchar(' ');
 putchar(1 / 10 + 48);
 putchar(1 % 10 + 48);
+{
 if (j * 100 + i != 9899)
 {
 putchar(',');
 putchar(' ');
-}
-}
 }
 }
 }
