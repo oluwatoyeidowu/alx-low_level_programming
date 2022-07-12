@@ -1,8 +1,8 @@
 #include <unistd.h>
 
 /**
- * main - prints exactly "and that piece of art is useful"
- * - Dora Korpar, 2015-10-19",
+ * main - prints the error sandwiched around the standard output
+ *
  * Return: 1
  */
 int main(void)
