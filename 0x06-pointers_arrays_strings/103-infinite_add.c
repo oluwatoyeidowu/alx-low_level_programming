@@ -1,10 +1,9 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * infinite_add - adds two numbers
- * @n1: first num
- * @n2: second num
+ * @n1: num one
+ * @n2: num2
  * @r: buffer to store the result
  * @size_r: buffer size
  * Return: dest
