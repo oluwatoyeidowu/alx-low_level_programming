@@ -18,7 +18,7 @@ char *rot13(char *x)
 			if (*(x + count) == alpha[i])
 			{
 				*(x + count) = rot13[i];
-				braek;
+				break;
 			}
 		}
 		count++;
