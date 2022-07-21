@@ -1,17 +1,17 @@
 #include "main.h"
+
 /**
  * _puts_recursion - prints a string
- * @s: pointer block of memory
+ * @s: string
  * Return: void
  */
 void _puts_recursion(char *s)
 {
-if (*s)
-{
-	_putchar(*s);
-	_puts_recursion(s + 1);
-}
-
-else
-_putchar('\n');
+	if (*s != '\0')
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
+	else
+		_putchar('\n');
 }
