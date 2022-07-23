@@ -1,11 +1,21 @@
 #include "main.h"
 
 /**
-* _isalpha - checks for alphabetical letters
-* @c: a charter to be checke on
-* Return: returns 0 or 1 depending on condition
-*/
+ * _isalpha - Check for alphabet
+ *
+ * @c: ASCII code
+ *
+ * Return: Always 1 for letter, 0 for the rest
+ */
 int _isalpha(int c)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+	_putchar('\n');
 }
