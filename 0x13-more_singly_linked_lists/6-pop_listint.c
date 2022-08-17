@@ -6,7 +6,7 @@
  * @head: A pointer to listint_t structure.
  * Return: The head node's dataform deleted element
  */
-int pop_list(listint_t **head)
+int pop_listint(listint_t **head)
 {
 	listint_t *new_node;
 	int n;
@@ -17,6 +17,7 @@ int pop_list(listint_t **head)
 	n = (*head)->n;
 	new_node = (*head)->next;
 	free(*head);
+
 	*head = new_node;
 	return (n);
 }
